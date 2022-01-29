@@ -25,7 +25,7 @@ console.log(`the total amount of animals in the barn is ${total}`);
 // get the total price of just the snack items in array
 
 groceryCart = [{ apples: 0.59, soda: 1.0, snack1: 2.0, snack2: 3.0 }];
-snacks = [2, 3];
+snacks = [2.00, 3.00];
 const totalSnacks = snacks.reduce(function (snax1, snax2) {
   return snax1 + snax2;
 });
@@ -35,7 +35,7 @@ console.log (`my snacks total comes out to ${totalSnacks} dollars`)
 //  get the total in grocery cart i bought 3 sodas
 
 publixCart = [{popcorn:3.00,lettuce:1.00, soda: 1.50}]
-sodas = [2]*3
+sodas = [1.50*3]
   
 const totalSodas = sodas.reduce(function(mySoda)
 {
