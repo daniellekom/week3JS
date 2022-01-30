@@ -48,7 +48,7 @@ for (let sqr of numbers) {
   console.log(Math.pow(sqr, 2));
 }
 
-// write a for/of loop to get the sqr root
+// write a for/of loop to get the sqr 
 
 let theseNumbers = [4,6,8];
 for (let square of theseNumbers) {
