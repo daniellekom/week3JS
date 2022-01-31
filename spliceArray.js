@@ -13,10 +13,10 @@ console.log(...cart)
 
 const colors = ['blue','orange','purple','green']
 colors.splice(1,2,'pink')
-console.log(colors)
+console.log(`the color that appear is ${colors}`)
 
 
-//add a fruit in between these fruits in array with .splice
+//add a fruit instead of these fruits in array with .splice
  const fruitCart = [ 'oranges', 'bananas','strawberries']
  fruitCart.splice(0, 3, "kiwi", 'apple', 'pear')
  console.log(fruitCart)
@@ -34,6 +34,6 @@ console.log(colors)
  
 //replace the family member that doesnt belong
 
-const family = ['omer', 'john','orit','arik','savta']
+const family = ['omer', 'john','orit','arik','savta']   
 family.splice(1,1, 'jeremiah')
 console.log(family)
