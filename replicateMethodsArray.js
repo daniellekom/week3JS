@@ -19,7 +19,7 @@ function getFriends(){
 }
 getFriends()
 
-////write a Js function to get the last element of an array
+//write a Js function to get the last element of an array
 
 let cookies = ["chocolate", "raisin","cinammon","vanilla"]
 
