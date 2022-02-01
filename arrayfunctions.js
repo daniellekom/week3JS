@@ -84,3 +84,28 @@ if(letters[i]===parameter){
       }
   }
   findLetter("o")
+
+
+  //write a Js function to get all the index of an array
+
+let flavors = ["vanilla", "strawberries", "chocolate"]
+
+function getFlavors(){
+for(let f=0; f<flavors.length; f++)
+    console.log(f)
+}
+getFlavors()
+
+//write a js function to get large index of array
+
+let size= ["small","medium","large","xlarge","xxlarge"]
+function getSize(sizes){
+    for(let s=0;s<size.length;s++)
+    if(size[s]===sizes){
+        console.log(`${s}`);
+    }
+
+}
+getSize("large")
+
+//write a js function to get the word out of the array not index
